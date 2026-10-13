@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <!-- Dígitos -->
+    <string name="n0">0</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="coma">,</string>
+    <!-- Operadores -->
+    <string name="sum">+</string>
+    <string name="min">−</string>
+    <string name="mult">×</string>
+    <string name="div">÷</string>
+    <string name="eq">=</string>
+    <!-- Edición -->
+    <string name="c">C</string>
+    <string name="ce">CE</string>
+    <string name="borrar">⌫</string>
+    <string name="neg">±</string>
+    <!-- Memoria -->
+    <string name="mc">MC</string>
+    <string name="mr">MR</string>
+    <string name="mp">M+</string>
+    <string name="mm">M−</string>
+    <string name="memoria_indicador">M</string>
+</resources>

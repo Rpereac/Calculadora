@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    android:gravity="bottom"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical|end"
+            android:maxLines="1"
+            android:text="@string/n0"
+            android:textColor="@color/pantalla_texto"
+            android:textSize="32sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="32sp"/>
+
+        <!-- Memoria -->
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/mc" style="@style/BotonMemoria" android:text="@string/mc"/>
+            <Button android:id="@+id/mr" style="@style/BotonMemoria" android:text="@string/mr"/>
+            <Button android:id="@+id/mplus" style="@style/BotonMemoria" android:text="@string/mp"/>
+            <Button android:id="@+id/mmin" style="@style/BotonMemoria" android:text="@string/mm"/>
+        </LinearLayout>
+        <!-- C y ÷ -->
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/c" style="@style/BotonLimpiar" android:layout_weight="3" android:text="@string/c"/>
+            <Button android:id="@+id/div" style="@style/BotonOperador" android:text="@string/div"/>
+        </LinearLayout>
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/btn7" style="@style/BotonNumero" android:text="@string/n7"/>
+            <Button android:id="@+id/btn8" style="@style/BotonNumero" android:text="@string/n8"/>
+            <Button android:id="@+id/btn9" style="@style/BotonNumero" android:text="@string/n9"/>
+            <Button android:id="@+id/mul" style="@style/BotonOperador" android:text="@string/mult"/>
+        </LinearLayout>
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/btn4" style="@style/BotonNumero" android:text="@string/n4"/>
+            <Button android:id="@+id/btn5" style="@style/BotonNumero" android:text="@string/n5"/>
+            <Button android:id="@+id/btn6" style="@style/BotonNumero" android:text="@string/n6"/>
+            <Button android:id="@+id/min" style="@style/BotonOperador" android:text="@string/min"/>
+        </LinearLayout>
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/btn1" style="@style/BotonNumero" android:text="@string/n1"/>
+            <Button android:id="@+id/btn2" style="@style/BotonNumero" android:text="@string/n2"/>
+            <Button android:id="@+id/btn3" style="@style/BotonNumero" android:text="@string/n3"/>
+            <Button android:id="@+id/plus" style="@style/BotonOperador" android:text="@string/sum"/>
+        </LinearLayout>
+        <LinearLayout style="@style/Fila">
+            <Button android:id="@+id/coma" style="@style/BotonNumero" android:text="@string/coma"/>
+            <Button android:id="@+id/btn0" style="@style/BotonNumero" android:text="@string/n0"/>
+            <Button android:id="@+id/eq" style="@style/BotonIgual" android:layout_weight="2" android:text="@string/eq"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
