@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+local.properties
+
+# Archivos generados
+*.class
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
