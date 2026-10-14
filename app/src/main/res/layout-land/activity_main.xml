@@ -34,36 +34,39 @@
             app:autoSizeMinTextSize="16sp"
             app:autoSizeMaxTextSize="32sp"/>
 
-        <!-- Memoria -->
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/mc" style="@style/BotonMemoria" android:text="@string/mc"/>
             <Button android:id="@+id/mr" style="@style/BotonMemoria" android:text="@string/mr"/>
             <Button android:id="@+id/mplus" style="@style/BotonMemoria" android:text="@string/mp"/>
             <Button android:id="@+id/mmin" style="@style/BotonMemoria" android:text="@string/mm"/>
         </LinearLayout>
-        <!-- C y ÷ -->
+
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/c" style="@style/BotonLimpiar" android:layout_weight="3" android:text="@string/c"/>
             <Button android:id="@+id/div" style="@style/BotonOperador" android:text="@string/div"/>
         </LinearLayout>
+        
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/btn7" style="@style/BotonNumero" android:text="@string/n7"/>
             <Button android:id="@+id/btn8" style="@style/BotonNumero" android:text="@string/n8"/>
             <Button android:id="@+id/btn9" style="@style/BotonNumero" android:text="@string/n9"/>
             <Button android:id="@+id/mul" style="@style/BotonOperador" android:text="@string/mult"/>
         </LinearLayout>
+        
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/btn4" style="@style/BotonNumero" android:text="@string/n4"/>
             <Button android:id="@+id/btn5" style="@style/BotonNumero" android:text="@string/n5"/>
             <Button android:id="@+id/btn6" style="@style/BotonNumero" android:text="@string/n6"/>
             <Button android:id="@+id/min" style="@style/BotonOperador" android:text="@string/min"/>
         </LinearLayout>
+        
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/btn1" style="@style/BotonNumero" android:text="@string/n1"/>
             <Button android:id="@+id/btn2" style="@style/BotonNumero" android:text="@string/n2"/>
             <Button android:id="@+id/btn3" style="@style/BotonNumero" android:text="@string/n3"/>
             <Button android:id="@+id/plus" style="@style/BotonOperador" android:text="@string/sum"/>
         </LinearLayout>
+        
         <LinearLayout style="@style/Fila">
             <Button android:id="@+id/coma" style="@style/BotonNumero" android:text="@string/coma"/>
             <Button android:id="@+id/btn0" style="@style/BotonNumero" android:text="@string/n0"/>
