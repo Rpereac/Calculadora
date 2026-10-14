@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Fondo y pantalla -->
     <color name="fondo">#121212</color>
     <color name="pantalla_fondo">#121212</color>
     <color name="pantalla_texto">#FFFFFF</color>
     <color name="expresion_texto">#FFFFFF</color>
     <color name="memoria_indicador">#FF9500</color>
-    <!-- Botones -->
     <color name="boton_numero">#2A2A2A</color>
     <color name="boton_operador">#FF9500</color>
     <color name="boton_memoria">#4A4A4A</color>
     <color name="boton_limpiar">#4A4A4A</color>
     <color name="boton_igual">#FFFFFF</color>
-    <!-- Texto de botones -->
     <color name="texto_boton">#FFFFFF</color>
     <color name="texto_igual">#121212</color>
 </resources>
